@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca", "Biblioteca\Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase4", "Clase4\Clase4.csproj", "{9BD3048E-A86C-41C4-A6E2-B89E44CA50C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaContizador", "BibliotecaContizador\BibliotecaContizador.csproj", "{C356299F-A4BF-4DEF-9FE5-94BC8BCC0865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaContizador", "BibliotecaContizador\BibliotecaContizador.csproj", "{C356299F-A4BF-4DEF-9FE5-94BC8BCC0865}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Form01", "Form01\Form01.csproj", "{74918C0D-C53D-4743-9CB2-4C25DE3C8C93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Form02", "Form02\Form02.csproj", "{2735829F-4297-4F71-A159-2F0BAF57D178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form03", "Form03\Form03.csproj", "{EED8EA1E-F21E-4007-9FCB-B3A86B0EC3A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{C356299F-A4BF-4DEF-9FE5-94BC8BCC0865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C356299F-A4BF-4DEF-9FE5-94BC8BCC0865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C356299F-A4BF-4DEF-9FE5-94BC8BCC0865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74918C0D-C53D-4743-9CB2-4C25DE3C8C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74918C0D-C53D-4743-9CB2-4C25DE3C8C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74918C0D-C53D-4743-9CB2-4C25DE3C8C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74918C0D-C53D-4743-9CB2-4C25DE3C8C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2735829F-4297-4F71-A159-2F0BAF57D178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2735829F-4297-4F71-A159-2F0BAF57D178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2735829F-4297-4F71-A159-2F0BAF57D178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2735829F-4297-4F71-A159-2F0BAF57D178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED8EA1E-F21E-4007-9FCB-B3A86B0EC3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED8EA1E-F21E-4007-9FCB-B3A86B0EC3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED8EA1E-F21E-4007-9FCB-B3A86B0EC3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED8EA1E-F21E-4007-9FCB-B3A86B0EC3A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
