@@ -41,9 +41,13 @@ namespace Form03
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             
-                this.textBoxDcto.Text = "";
-                this.textBoxImporte.Text = "";
-                this.textBoxTotal.Text = "";
+                foreach(Control control in this.groupBox1.Controls)
+                {
+                    if(control is TextBox)
+                    {
+                     control.Text = "";
+                    }
+                }
             
         }
     }
