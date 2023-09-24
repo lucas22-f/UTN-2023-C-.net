@@ -11,14 +11,48 @@ namespace Clase6
         private int dni;
         private string nombre;
         private int partidosJugados;
-        private float promedioGoles;
         private int totalGoles;
+
+        public int PartidosJugados {
+
+            get { return this.partidosJugados; }
+        
+        }
+
+        public float PromedioGoles
+        {
+            get {
+
+                if (this.partidosJugados != 0)
+                {
+                    return this.totalGoles / this.partidosJugados;
+                }
+                return 0;
+
+            }
+        }
+
+        public int TotalGoles
+        {
+            get { return this.totalGoles; }
+        }
+
+        public int Dni
+        {
+            get { return this.dni; }
+            set { this.dni = value;}
+        }
+        public string Nombre
+        {
+            get { return this.nombre; }
+            set { this.nombre = value; }
+        }
+
 
 
         private Jugador()
         {
             this.partidosJugados = 0;
-            this.promedioGoles = 0;
             this.totalGoles = 0;
         }
 
@@ -35,15 +69,7 @@ namespace Clase6
         }
 
 
-        public float GetPromediosGoles()
-        {
-            if (this.partidosJugados != 0)
-            {
-                this.promedioGoles = this.totalGoles / this.partidosJugados;
-            }
-           
-            return this.promedioGoles;
-        }
+       
 
         public string MostrarDatos()
         {
@@ -51,7 +77,7 @@ namespace Clase6
             sb.Append($"\n nombre: {this.nombre}");
             sb.Append($"\n dni: {this.dni}");
             sb.Append($"\n partidosJugados: {this.partidosJugados}");
-            sb.Append($"\n promedioGoles: {this.GetPromediosGoles()}");
+            sb.Append($"\n promedioGoles: {this.PromedioGoles}");
             sb.Append($"\n totalGoles: {this.totalGoles}");
 
             return sb.ToString();
